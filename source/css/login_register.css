@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*登录、注册*/
+.main{overflow: hidden;position: relative;left:50%;color: #222;width:1000px;margin:30px 0 0 -500px;background: #fff;box-shadow: 0 0 6px rgba(0,0,0,0.1);border-radius: 5px;}
+.main ul{overflow: hidden;font-size:15px;width:70%;margin:50px auto;}
+.main li{width:100%;height:60px;line-height:40px;}
+.main li span{position: absolute;left: 0;top: 0;display: inline-block;text-align: right;width:100px;}
+.main li div{position: relative;height: 40px;padding-left:120px;}
+.main li input{float: left;font-size:15px;text-indent:15px;width:298px;height:38px;line-height:38px;border: 1px solid #ccc;}
+.register li .sex{-webkit-appearance: radio;-moz-appearance: radio;appearance: radio;width: 12px;height: 12px;margin-top: 16px;cursor: pointer;}
+.register li label{float: left;display: inline-block;line-height:40px;margin: 0 10px 0 5px;cursor: pointer;}
+.main li p{font-size:13px;}
+.main .code input{float: left;width:143px;}
+.main .code p{display: block;color: #999;margin-left:10px;cursor: pointer;}
+.main .code img{float: left;margin-left:10px;cursor: pointer;}
+.main .code i{font-size: 13px;color: #999;}
+.main .code .codeTip{margin-left: 10px;}
+.main .success{display: inline-block;position: absolute;left: 430px;top: 12px;width: 15px;height: 15px;background: url(../images/success.png) no-repeat center center;}
+.main .sub{padding-left:120px;margin-top:20px;}
+.main .sub button{font-size:15px;color: #fff;text-align: center;width:300px;height:40px;line-height:40px;background: #f50;border-radius: 4px;cursor: pointer;}
+.foot{margin-top:30px;}
+
+/*激活*/
+.activate{position: relative;left:50%;text-align: center;width:1000px;height:500px;margin:30px 0 0 -500px;background: #fff;box-shadow: 0 0 5px rgba(0,0,0,.1);}
+.activate p{font-size:16px;line-height:30px;padding-top:100px;}
+.activate a{font-size:15px;color: #39f;line-height:40px;text-decoration: underline;}
+.activate a:hover{color: #36f;}

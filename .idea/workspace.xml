@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72fce92c-d1fe-44b3-875f-efa486b3f103" name="Default" comment="" />
+    <ignored path="system.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="system" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/css/formtest.css" />
+        <option value="$PROJECT_DIR$/source/js/ajaxtest.js" />
+        <option value="$PROJECT_DIR$/source/css/login_register.css" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/source/plug/formtest.js" />
+        <option value="$PROJECT_DIR$/common/test.php" />
+        <option value="$PROJECT_DIR$/common/sqlConnect.php" />
+        <option value="$PROJECT_DIR$/common/page.php" />
+        <option value="$PROJECT_DIR$/source/js/page.js" />
+        <option value="$PROJECT_DIR$/ports/senMsg.php" />
+        <option value="$PROJECT_DIR$/common/logout.php" />
+        <option value="$PROJECT_DIR$/ports/sendMsg.php" />
+        <option value="$PROJECT_DIR$/source/js/login_register.js" />
+        <option value="$PROJECT_DIR$/source/js/friend.js" />
+        <option value="$PROJECT_DIR$/ports/addfriend.php" />
+        <option value="$PROJECT_DIR$/ports/register.php" />
+        <option value="$PROJECT_DIR$/ports/friend.php" />
+        <option value="$PROJECT_DIR$/friends.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/activeCode.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/addfriendAction.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/deleteFriend.php" />
+        <option value="$PROJECT_DIR$/source/js/friends.js" />
+        <option value="$PROJECT_DIR$/ports/userCenter/newfriend.php" />
+        <option value="$PROJECT_DIR$/userCenter/newfriend.php" />
+        <option value="$PROJECT_DIR$/userCenter/modify.php" />
+        <option value="$PROJECT_DIR$/userCenter/profile.php" />
+        <option value="$PROJECT_DIR$/ports/login.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/modify.php" />
+        <option value="$PROJECT_DIR$/common/common.php" />
+        <option value="$PROJECT_DIR$/inc/foot.inc.php" />
+        <option value="$PROJECT_DIR$/common/global.php" />
+        <option value="$PROJECT_DIR$/userCenter/password.php" />
+        <option value="$PROJECT_DIR$/userCenter/mobile.php" />
+        <option value="$PROJECT_DIR$/source/css/pop.css" />
+        <option value="$PROJECT_DIR$/userCenter/userCenter.php" />
+        <option value="$PROJECT_DIR$/userCenter/myfriend.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/myfriend.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/message.php" />
+        <option value="$PROJECT_DIR$/userCenter/message.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/sendMsg.php" />
+        <option value="$PROJECT_DIR$/ports/userCenter/chat.php" />
+        <option value="$PROJECT_DIR$/userCenter/chat.php" />
+        <option value="$PROJECT_DIR$/source/js/common.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/userCenter.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/modify.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/newfriend.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/myfriend.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/message.js" />
+        <option value="$PROJECT_DIR$/source/js/userCenter/chat.js" />
+        <option value="$PROJECT_DIR$/inc/header.inc.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../laravel" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AppServ\www\php\system\ports" />
+      <recent name="D:\AppServ\www\php\system\source\js" />
+      <recent name="D:\AppServ\www\php\system\ports\userCenter" />
+      <recent name="D:\AppServ\www\php\system\source\js\userCenter" />
+      <recent name="D:\AppServ\www\php\system\userCenter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AppServ\www\php\system\ports\userCenter" />
+      <recent name="D:\AppServ\www\php\system\userCenter" />
+      <recent name="D:\AppServ\www\php\system\source\js\userCenter" />
+      <recent name="D:\AppServ\www\php\system\source\images" />
+      <recent name="D:\AppServ\www\php\system\source\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72fce92c-d1fe-44b3-875f-efa486b3f103" name="Default" comment="" />
+      <created>1468199813768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468199813768</updated>
+      <workItem from="1468199815067" duration="26151000" />
+      <workItem from="1468285407727" duration="25345000" />
+      <workItem from="1468371915784" duration="3669000" />
+      <workItem from="1468376004404" duration="9175000" />
+      <workItem from="1468466982340" duration="11013000" />
+      <workItem from="1468544510862" duration="24157000" />
+      <workItem from="1468803326513" duration="586000" />
+      <workItem from="1468806756385" duration="17490000" />
+      <workItem from="1468889936209" duration="20947000" />
+      <workItem from="1468976363502" duration="2426000" />
+      <workItem from="1468978822776" duration="4316000" />
+      <workItem from="1469156906397" duration="1682000" />
+      <workItem from="1469411464560" duration="5468000" />
+      <workItem from="1469510810268" duration="1830000" />
+      <workItem from="1469581489271" duration="18956000" />
+      <workItem from="1469668718191" duration="22518000" />
+      <workItem from="1469753869928" duration="23698000" />
+      <workItem from="1470013327840" duration="8614000" />
+      <workItem from="1470106064056" duration="1639000" />
+      <workItem from="1470120538054" duration="4876000" />
+      <workItem from="1470185179782" duration="26533000" />
+      <workItem from="1470273092977" duration="19473000" />
+      <workItem from="1470640458483" duration="2014000" />
+      <workItem from="1470704384757" duration="20749000" />
+      <workItem from="1470790735518" duration="26383000" />
+      <workItem from="1470876442431" duration="15066000" />
+      <workItem from="1470901796126" duration="1101000" />
+      <workItem from="1473313010737" duration="599000" />
+      <workItem from="1473383878726" duration="11596000" />
+      <workItem from="1473555897075" duration="2592000" />
+      <workItem from="1473728221529" duration="7036000" />
+      <workItem from="1473845327532" duration="3723000" />
+      <workItem from="1473942607709" duration="5371000" />
+      <workItem from="1474248422893" duration="6984000" />
+      <workItem from="1474263302182" duration="15331000" />
+      <workItem from="1474337029114" duration="14586000" />
+      <workItem from="1474420006691" duration="22242000" />
+      <workItem from="1474505297027" duration="23038000" />
+      <workItem from="1474592886314" duration="21323000" />
+      <workItem from="1474679490126" duration="10672000" />
+      <workItem from="1474720578269" duration="11346000" />
+      <workItem from="1474852882967" duration="22568000" />
+      <workItem from="1474939216520" duration="10306000" />
+      <workItem from="1475023324129" duration="18852000" />
+      <workItem from="1475110859207" duration="19591000" />
+      <workItem from="1475198180065" duration="18753000" />
+      <workItem from="1476428806425" duration="9584000" />
+      <workItem from="1476665790456" duration="24051000" />
+      <workItem from="1476752791345" duration="14606000" />
+      <workItem from="1476844087083" duration="599000" />
+      <workItem from="1478251462556" duration="1501000" />
+      <workItem from="1478680089883" duration="30000" />
+      <workItem from="1478680547918" duration="214000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="642969000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16352202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32657418" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/source/js/login_register.js</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/common/code.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <marker date="1474940866063" expanded="true" signature="1368:1409" ph="SELECT name users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475047417153" expanded="true" signature="620:674" ph="SELECT * FRO... addfriend" />
+            <marker date="1475047417153" expanded="true" signature="703:755" ph="SELECT * FRO... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <marker date="1474940866063" expanded="true" signature="1368:1409" ph="SELECT name users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475047417153" expanded="true" signature="620:674" ph="SELECT * FRO... addfriend" />
+            <marker date="1475047417153" expanded="true" signature="703:755" ph="SELECT * FRO... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <marker date="1474940866063" expanded="true" signature="1368:1409" ph="SELECT name users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475047417153" expanded="true" signature="620:674" ph="SELECT * FRO... addfriend" />
+            <marker date="1475047417153" expanded="true" signature="703:755" ph="SELECT * FRO... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ports/userCenter/addfriendAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-694">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ports/userCenter/deleteFriend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ports/userCenter/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ports/userCenter/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userCenter/userCenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <marker date="1475047417153" expanded="true" signature="620:674" ph="SELECT * FRO... addfriend" />
+            <marker date="1475047417153" expanded="true" signature="703:755" ph="SELECT * FRO... message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="107" column="68" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
+          <folding>
+            <marker date="1474940866063" expanded="true" signature="1368:1409" ph="SELECT name users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

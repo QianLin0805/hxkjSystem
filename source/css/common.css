@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.top{position: relative;width: 100%;height: 30px;background: #fff;border-bottom: 1px solid #e5e5e5;}
+.top_wrap{position: absolute;left: 50%;top: 0;font-size: 12px;color: #666;text-align: center;width: 1000px;height: 30px;line-height: 30px;margin-left:-500px;}
+.top span{float: left;margin-left: 10px;}
+.top p{overflow: hidden;float: right;}
+.top p a{color: #999;margin-right: 15px;}
+.top p a:hover{color: #2b99ff;}
+.nav{position: relative;width:100%;height:80px;background: #efefef;}
+.nav_wrap{position: absolute;left:50%;top:0;width:1000px;height:80px;margin-left:-500px;}
+.nav_wrap img{float: left;width:120px;margin:27px 0 0 20px;}
+.nav_wrap p{overflow: hidden;float: right;line-height:80px;}
+.nav_wrap p a{display: inline-block;float: left;color: #333;text-align: center;width:100px;height:80px;}
+.nav_wrap p a:hover{color: #2b99ff;}
+.nav_wrap p a.current{color: #2b99ff;}
+.foot{position: relative;color: #ddd;text-align: center;width:100%;height:70px;line-height:20px;background: #333;margin-top:20px;padding-top:30px;}
+.foot.fixed{position: fixed;left: 0;bottom: 0;}
+.foot span{font-size:12px;color: #999;}

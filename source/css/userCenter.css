@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.member{overflow: hidden;position: relative;left: 50%;width: 1000px;margin: 20px 0 40px -500px;}
+.member .menu{float: left;overflow: hidden;width: 180px;line-height: 40px;}
+.menu h2{font-size: 15px;color: #fff;text-indent: 10px;background: #ccc;margin-top: 20px;}
+.menu h2:first-child{margin-top: 0;}
+.menu ul{overflow: hidden;background: #fff;}
+.menu li{color: #555;text-indent: 1em;border-top: 1px solid #f5f5f5;padding-left: 10px;}
+.menu li:first-child{border: none;}
+.menu li a{display: block;width: 100%;height: 100%;color: #999;}
+.menu li a:hover{color: #2b99ff;}
+.menu li .current{color: #2b99ff;}
+.member .main{overflow: hidden;position: relative;min-height: 485px;margin-left: 195px;background: #fff;}
+.menu li .count{display: inline-block;font-size: 12px;color: #fff;text-align: center;text-indent: 0;min-width: 8px;height: 18px;line-height: 18px;padding: 0 5px;background: red;border-radius: 9px;margin-left: 10px;}
+.foot{margin-top: 0;}
+
+/*个人中心*/
+.main h3{font-size: 15px;color: #fff;text-align: center;line-height: 40px;background: #ccc;}
+.main .tips{position: absolute;left: 0;top: 100px;color: #ccc;text-align: center;width: 100%;line-height: 30px;}
+.main .nodata{display: none;}
+.main ul{overflow: hidden;position: relative;margin: 30px auto;}
+
+.profile ul{width: 84%;}
+.profile li{position: relative;color: #555;min-height: 40px;line-height: 20px;margin-bottom: 20px;}
+.profile li span{position: absolute;left: 0;top: 0;display: inline-block;width: 72px;margin-top: 10px;}
+.profile li p{margin-left: 87px;padding: 10px 0;}
+.profile .portrait{position: absolute;right: 0;top: 0;z-index: 1;padding: 0;}
+.profile .portrait img{width: 80px;border-radius: 5px;}
+.profile .portrait span{position: static;float: none;font-size: 12px;text-align: center;width: 100%;line-height: 24px;margin: 0;}
+
+/*修改资料*/
+.modify li div{min-height: 40px;padding-left: 87px;}
+.modify li p{float: left;font-size:13px;}
+.modify .user .success{display: inline-block;position: absolute;left: 367px;top: 12px;width: 15px;height: 15px;background: url(../images/success.png) no-repeat center center;}
+.modify li input{float: left;text-indent: 10px;width: 268px;height: 38px;line-height: 20px;border: 1px solid #ddd;}
+.modify li .sex{-webkit-appearance: radio;-moz-appearance: radio;appearance: radio;width: 12px;height: 12px;margin-top: 14px;cursor: pointer;}
+.modify li label{float: left;display: inline-block;line-height:40px;margin-left: 5px;cursor: pointer;}
+.modify li textarea{float: left;resize: both;width: 350px;height: 100px;line-height: 20px;border: 1px solid #ddd;padding: 5px 10px;}
+.modify li button{color: #fff;width: 270px;height: 40px;margin-left: 87px;background: #2b99ff;border-radius: 5px;cursor: pointer;}
+
+.password ul,.mobile ul{margin-top: 50px;}
+.password li span{letter-spacing: 3px;}
+.password li .tip,.mobile li .tip{font-size: 13px;color: #f00;line-height: 40px;padding: 0;margin: 0 0 0 10px;}
+.mobile h4{color: #333;line-height: 40px;}
+.mobile li span{width: 84px;}
+.mobile li div{padding-left: 99px;}
+.mobile li button{margin-left: 0;}
+
+/*新的朋友*/
+.friend{position: relative;}
+.friend .list{display: none;overflow: hidden;width: 100%;margin: 0 auto;}
+.friend .list li{position: relative;overflow: hidden;padding: 30px 20px 0 120px;border-top: 1px solid #f0f0f0;}
+.friend .list li:first-child{border: none;}
+.friend .list .face{position: absolute;left: 20px;top: 30px;width: 80px;border-radius: 100%;}
+.friend .list .wrap{position: relative;width: 100%;min-height: 80px;padding-bottom: 20px;}
+.friend .wrap h4{color: #666;font-size: 15px;line-height: 30px;}
+.friend .wrap .sex{height: 16px;vertical-align: middle;margin-left: 10px;margin-top: -2px;}
+.friend .wrap .info{font-size: 12px;color: #aaa;height: 20px;line-height: 20px;}
+.friend .wrap .info span{margin-right: 10px;}
+
+.newfriend .wrap .age{margin-right: 20px;}
+.newfriend .wrap .content{overflow: hidden;color: #999;line-height: 20px;padding: 10px 120px 10px 0;}
+.newfriend .wrap .state{position: absolute;right: 0;top: 30px;line-height: 20px;}
+.newfriend .wrap .state span{margin: 0 10px;}
+.newfriend .wrap .agree{color: #2b99ff;cursor: pointer;}
+.newfriend .wrap .agreed{color: #ccc;}
+.newfriend .wrap .delete{color: #f00;cursor: pointer;}
+
+/*我的好友*/
+.myfriend .wrap{min-height: 100px;}
+.myfriend .wrap p{font-size: 13px;}
+.myfriend .wrap .contact{color: #666;line-height: 20px;padding: 5px 120px 5px 0;}
+.myfriend .wrap .contact span{margin-right: 15px;}
+.myfriend .wrap .destr{color: #666;line-height: 20px;padding: 5px 120px 5px 0;}
+.myfriend .list .operate{position: absolute;right: 0;top: 30px;line-height: 18px;}
+.myfriend .list .sendMsg{display: inline-block;width: 50px;height: 18px;background: url(../images/message.png) no-repeat center center;background-size: auto 18px;}
+.myfriend .list .delete{color: #f00;margin-left: 20px;cursor: pointer;}
+.myfriend .mask{display: none;position: fixed;left: 0;top: 0;z-index: 999;width: 100%;height: 100%;}
+.myfriend .mask .bg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: #000;opacity: .3;filter: alpha(opacity=30);}
+.myfriend .mask .close{position: absolute;right: 5px;top: 5px;cursor: pointer;}
+.myfriend .mask .maskBox{position: absolute;left: 50%;top: 50%;width: 360px;height: 400px;background: #fff;padding: 0 20px;margin: -200px 0 0 -200px;border-radius: 6px;}
+.myfriend .maskBox h4{font-size: 15px;text-align: center;color: #333;line-height: 30px;margin: 20px 0 10px;}
+.myfriend .maskBox textarea{width: 338px;height: 200px;padding: 10px;border: 1px solid #ddd;border-radius: 3px;}
+.myfriend .maskBox .masktip{text-align: center;font-size: 13px;color: red;height: 30px;line-height: 30px;margin-top: 25px;}
+.myfriend .maskBox .masktip span{display: none;}
+.myfriend .maskBox #send{text-align: center;color: #fff;width: 100%;height: 40px;line-height: 40px;background: #2b99ff;border-radius: 5px;cursor: pointer;}
+
+/*我的私信*/
+.message .list{margin: 0 20px;}
+.message .list li{width: 100%;height: 50px;padding: 20px 0;border-top: 1px solid #f0f0f0;}
+.message .list li:first-child{border: none;}
+.message .list a{display: block;position: relative;color: #333;height: 100%;padding-left: 60px;}
+.message li .face{position: absolute;left: 0;top: 0;width: 50px;border-radius: 100%;}
+.message li .name{font-size: 15px;line-height: 30px;}
+.message li .content{overflow: hidden;font-size: 13px;color: #999;height: 20px;line-height: 20px;padding-right: 100px;text-overflow: ellipsis;white-space: nowrap;}
+.message li .time{position: absolute;right: 5px;top: 0;font-size: 13px;color: #999;line-height: 30px;}
+.message li .unread{position: absolute;right: 5px;top: 31px;font-size: 12px;text-align: center;color: #fff;min-width: 8px;height: 18px;line-height: 18px;padding: 0 5px;background: #f00;border-radius: 10px;}
+
+/*对话*/
+.chat .wrap{overflow-y: scroll;position: absolute;left: 0;top: 40px;bottom: 103px;width: 100%;padding-top: 20px;}
+.chat .wrap .loadTip{position: absolute;left: 0;top: 10%;font-size: 13px;color: #ccc;text-align: center;width: 100%;line-height: 30px;}
+.chat .wrap .dialog{position: relative;overflow: hidden;min-height: 40px;padding: 0 75px;margin-bottom: 30px;}
+.chat .dialog .face{position: absolute;left: 20px;width: 40px;border-radius: 100%;}
+.chat .myself .face{left: auto;right: 20px;}
+.chat .dialog .content{float: left;position: relative;height: auto;min-height: 20px;line-height: 20px;background: #e5e5e5;padding: 10px;border-radius: 4px;}
+.chat .myself .content{float: right;}
+.chat .dialog .arrow{position: absolute;left: -6px;top: 50%;border-right: 6px solid #e5e5e5;border-top: 5px solid transparent;border-bottom: 5px solid transparent;margin-top: -5px;}
+.chat .myself .arrow{left: auto;right: -6px;border-left: 6px solid #e5e5e5;border-right: none;}
+.chat .dialog .content span{display: table-cell;vertical-align: middle;}
+.chat .edge{position: relative;font-size: 13px;color: #999;text-align: center;height: 30px;line-height: 30px;margin: 0 75px;}
+.chat .edge .line{position: absolute;left: 0;top: 15px;width: 100%;height: 0;border-bottom: 1px dashed #ccc;}
+.chat .edge span{position: relative;z-index: 1;padding: 0 10px;background: #fff;}
+.chat .send{overflow: hidden;position: absolute;left: 0;right: 0;bottom: 0;padding: 15px 112px 15px 10px;border-top: 1px solid #ddd;}
+.chat .send textarea{width: 100%;height: 20px;line-height: 20px;padding: 10px 5px;border: 1px solid #eee;border-radius: 3px;}
+.chat .send #send{position: absolute;right: 10px;top: 16px;color: #fff;text-align: center;width: 80px;height: 38px;line-height: 38px;background: #2b99ff;border-radius: 5px;cursor: pointer;}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{position: relative;width:100%;height:400px;background: #555;}
+.slide{position: absolute;left:50%;top:0;color: #fff;font-size:20px;text-align: center;width:1000px;height:400px;line-height:400px;margin-left:-500px;background: #777;}
+.main{overflow: hidden;width:100%;margin-top:20px;}
+.con_wrap{overflow: hidden;position: relative;left:50%;top:0;width:1000px;margin-left:-500px;}
+.list{float: left;text-align: center;width:200px;height:240px;line-height:240px;border: 1px solid #999;}
+.list2{height:300px;margin-top:15px;}
+.content{float: right;text-align: center;width:781px;height:557px;line-height:557px;border: 1px solid #999;}
