@@ -37,9 +37,9 @@ $fieldname = insertData($data);
 $fieldvalue = insertData($data,2);
 
 mysql_query("INSERT INTO users ($fieldname,regist_time) VALUES ($fieldvalue,NOW())");
-if(mysql_affected_rows()){
+
+if(mysql_affected_rows()>0){
     mysql_close();
-    session_destroy();
     $result['resultCode'] = 200;
     $result['resultMsg'] = '注册成功';
     $result['code'] = $data['activecode'];

@@ -15,6 +15,10 @@ function code($width=145,$height=40,$size=6){
     $char = array_merge(range(0,9),range('a','z'),range('A','Z'));
     shuffle($char);
     for($i=0;$i<$size;$i++){
+        if(!isset($str)){
+            $str = $char[$i];
+            continue;
+        }
         $str .= $char[$i];
     }
     $_SESSION['code'] = $str;                    //储存session

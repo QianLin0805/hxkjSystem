@@ -40,7 +40,6 @@ if($data['password'] != $userinfo['password']){
 mysql_query("UPDATE users SET login_time=NOW(),uniqid='{$data['uniqid']}' WHERE name='{$_POST['name']}'");
 if(mysql_affected_rows()) {
     mysql_close();
-    session_destroy();
 
     $result['resultCode'] = 200;
     $result['resultMsg'] = '登录成功';

@@ -6,7 +6,7 @@
  * Time: 9:44
  */
 
-session_start();
+//session_start();
 
 date_default_timezone_set('PRC');
 function getTime(){                                        //获取时间的微秒数
@@ -70,16 +70,16 @@ function trans($str){                                    //转义字符
 }
 function insertData($arr,$type = 1){                     //插入数据语句字段包装
     foreach($arr as $key => $value){
-        $value = (gettype($value) != string) ? $value : '\''.$value.'\'';
+        $value = is_numeric($value) ? $value : '\''.$value.'\'';
         if($type == 1){
             if(!isset($str)){
-                $str .= $key;
+                $str = $key;
             }else{
                 $str .= ','.$key;
             }
         }elseif ($type == 2){
             if(!isset($str)){
-                $str .= $value;
+                $str = $value;
             }else{
                 $str .= ','.$value;
             }
@@ -89,9 +89,9 @@ function insertData($arr,$type = 1){                     //插入数据语句字
 }
 function updateData($arr){                               //更新数据
     foreach ($arr as $key => $value){
-        $value = (gettype($value) != string) ? $value : '\''.$value.'\'';
+        $value = is_numeric($value) ? $value : '\''.$value.'\'';
         if(!isset($str)){
-            $str .= $key.'='.$value;
+            $str = $key.'='.$value;
         }else{
             $str .= ','.$key.'='.$value;
         }

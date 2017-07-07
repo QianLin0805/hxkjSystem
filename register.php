@@ -13,8 +13,8 @@ if(isset($_COOKIE['username'])){
     poptip();
     exit('Faild To Access!');
 }
-if($_GET['code']) testcode($_GET['code']);
-if($_GET['name']) testNameAjax($_GET['name']);
+if(isset($_GET['code'])) testcode($_GET['code']);
+if(isset($_GET['name'])) testNameAjax($_GET['name']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -25,7 +25,7 @@ if($_GET['name']) testNameAjax($_GET['name']);
     <link rel="stylesheet" href="source/css/pop.css" />
     <link rel="stylesheet" href="source/css/formtest.css" />
     <script type="text/javascript" src="source/js/ajaxtest.js"></script>
-    <script type="text/javascript" src="source/plug/pop.js"></script>
+    <script type="text/javascript" src="source/plug/poptip.js"></script>
 </head>
 <body>
 <input type="hidden" id="port" value="<?php echo ROOTPORT; ?>">

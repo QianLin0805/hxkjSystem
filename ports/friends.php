@@ -6,21 +6,20 @@
  * Time: 10:44
  */
 define('IN_TG',true);
+require('../common/common.php');
 
 $data = array();
 $data['data'] = array();
 if(!$_POST['userid']){
     $data['resultCode'] = 300;
-    $data['resultMsg'] = '失败';
+    $data['resultMsg'] = '请先登录';
     callback($data);
 }
-if(!$_POST['size']){
+if(!isset($_POST['size']) || !$_POST['size']){
     $size = 8;
 }else{
     $size = $_POST['size'];
 }
-
-require('../common/common.php');
 
 $userid = $_POST['userid'];
 $allusers = getData("SELECT * FROM users WHERE userid!=1 and userid!=$userid");
@@ -32,6 +31,7 @@ for($i=0;$i<count($friendid);$i++){
 }
 for($i=0;$i<count($allusers);$i++){
     if(in_array($allusers[$i]['userid'],$friendsid)) continue;
+    echo $allusers[$i];
     array_push($data['data'],$allusers[$i]);
 }
 if(count($data['data'])>8) $data['data'] = array_rand($data['data'],8);

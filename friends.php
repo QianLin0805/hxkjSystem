@@ -18,7 +18,7 @@ require(dirname(__FILE__).'/common/common.php');
     <?php require(URLPATH.'inc/link.inc.php') ?>
     <link rel="stylesheet" href="source/css/pop.css" />
     <script type="text/javascript" src="source/js/common.js"></script>
-    <script type="text/javascript" src="source/plug/pop.js"></script>
+    <script type="text/javascript" src="source/plug/poptip.js"></script>
     <script type="text/javascript" src="source/js/friends.js"></script>
 </head>
 <body>

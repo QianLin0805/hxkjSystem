@@ -34,7 +34,7 @@ $(function () {
                     html += '<img src="../source/face/'+ data[i].face +'" alt="" class="face" /><div class="wrap">';
                     html += '<h4>'+ data[i].name +'<img src="../source/'+ sex +'" alt="" class="sex" /></h4>';
                     html += '<p class="info">';
-                    if(typeof data[i].age == 'number') html += '<span class="age">'+ data[i].age +'岁</span>';
+                    if(typeof data[i].age == 'number') html += '<span class="age">'+ (data[i].age<=0 ? 1 : data[i].age) +'岁</span>';
                     if(data[i].address) html += '<span class="address">'+ data[i].address +'</span>';
                     html += '</p><p class="contact">';
                     if(data[i].mobile) html += '<span class="mobile">手机：'+ data[i].mobile +'</span>';

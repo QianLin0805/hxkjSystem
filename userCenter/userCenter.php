@@ -12,7 +12,7 @@ if(!isset($_COOKIE['username'])){
 define('IN_TG',true);
 define("LINK",'userCenter');
 require('../common/common.php');
-if($_GET['name']) testNameAjax($_GET['name'],$_COOKIE['username']);
+if(isset($_GET['name'])) testNameAjax($_GET['name'],$_COOKIE['username']);
 
 $userid = $_COOKIE['userid'];
 $arr = array('profile','modify','mobile','password','newfriend','myfriend','message','chat','note');
@@ -32,11 +32,11 @@ $message = getDataCount("SELECT * FROM message WHERE toId=$userid and state=1");
             echo '<link rel="stylesheet" href="../source/css/pop.css" />
                   <link rel="stylesheet" href="../source/css/formtest.css" />
                   <script type="text/javascript" src="../source/js/ajaxtest.js"></script>
-                  <script type="text/javascript" src="../source/plug/pop.js"></script>
+                  <script type="text/javascript" src="../source/plug/poptip.js"></script>
                   <script type="text/javascript" src="../source/plug/laydate.js"></script>';
         }else if($modele == 'myfriend' || $modele == 'newfriend' || $modele == 'chat'){
             echo '<link rel="stylesheet" href="../source/css/pop.css" />
-                  <script type="text/javascript" src="../source/plug/pop.js"></script>';
+                  <script type="text/javascript" src="../source/plug/poptip.js"></script>';
         }
     ?>
 </head>

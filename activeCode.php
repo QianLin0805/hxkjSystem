@@ -14,7 +14,7 @@ require('common/common.php');
 
 $arr = fetchResult("SELECT userid FROM users WHERE activecode='{$_GET['activeCode']}'");
 if(!$arr) exit('页面已过期');
-if($_GET['action'] == 'ok'){
+if(isset($_GET['action']) && $_GET['action'] == 'ok'){
     $data = array();
     $data['userid'] = $arr['userid'];
     $data['friendid'] = 1;

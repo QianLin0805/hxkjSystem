@@ -8,16 +8,16 @@
 define('SQL_HOST','localhost');
 define('SQL_USER','root');
 define('SQL_PWD','gh252363');
-define('DARA_NAME','hxkj');
+define('DATA_NAME','hxkj');
 
 if(!$sql = @mysql_connect(SQL_HOST,SQL_USER,SQL_PWD)){
-    exit('数据库连接错误：'.mysql_error());
+    exit('1数据库连接错误：'.mysql_error());
 }else{
-    if(!@mysql_select_db(DARA_NAME)){
-        exit('连接指定数据库失败：'.mysql_error());
+    if(!@mysql_select_db(DATA_NAME)){
+        exit('2连接指定数据库失败：'.mysql_error());
     }else{
         if(!@mysql_query('SET NAMES UTF8')){
-            exit('设置字符编码失败：'.mysql_error());
+            exit('3设置字符编码失败：'.mysql_error());
         }
     }
 }
